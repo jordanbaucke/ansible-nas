@@ -1,5 +1,5 @@
 ---
-ansible_nas_user: david
+ansible_nas_user: "{{ username }}"
 
 # Where you want to store application data - you'll likely want this backed up or on a ZFS zpool.
 docker_home: /mnt/Volume2/docker
